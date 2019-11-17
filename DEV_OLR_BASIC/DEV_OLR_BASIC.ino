@@ -14,11 +14,15 @@
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation; either version 3 of the License, or
  (at your option) any later version.
+
+ 
  by gbarbarov@singulardevices.com  for Arduino day Seville 2019 
- Code made dirty and fast, next improvements in: 
- https://github.com/gbarbarov/led-race
  https://www.hackster.io/gbarbarov/open-led-race-a0331a
  https://twitter.com/openledrace
+ 
+ 
+ https://gitlab.com/open-led-race
+ https://openledrace.net/open-software/
 */
 
 
