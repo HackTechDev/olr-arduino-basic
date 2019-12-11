@@ -26,7 +26,7 @@
 */
 
 
-//version Basic for PCB Rome Edition / Napoli custom
+//version Basic for PCB Rome Edition / Napoli custom:  music , sound fx default (quit with switch 2)
 // 2 Player , without Boxes Track
                                                             
 #include <Adafruit_NeoPixel.h>
