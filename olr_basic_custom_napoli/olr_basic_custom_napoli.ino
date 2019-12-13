@@ -26,7 +26,7 @@
 */
 
 
-//version Basic for PCB Rome Edition / Napoli custom:  music , sound fx default (quit with switch 2)
+//version Basic for PCB Rome Edition / Napoli custom:  music , sound fx off default (set on with switch 2(green))
 // 2 Player , without Boxes Track
                                                             
 #include <Adafruit_NeoPixel.h>
@@ -64,7 +64,7 @@ byte  gravity_map[MAXLED];
 
 int TBEEP=0;
 int FBEEP=0; 
-byte SMOTOR=1;
+byte SMOTOR=0;
 float speed1=0;
 float speed2=0;
 float dist1=0;
@@ -128,7 +128,7 @@ void setup() {
    
   };
 
-  if ((digitalRead(PIN_P2)==0)) {delay(1000); tone(PIN_AUDIO,1000);delay(500);noTone(PIN_AUDIO);delay(500);if ((digitalRead(PIN_P2)==0)) SMOTOR=0;} //push switch 2 until a tone beep on reset for deactivate magic FX  ;-)
+  if ((digitalRead(PIN_P2)==0)) {delay(1000); tone(PIN_AUDIO,1000);delay(500);noTone(PIN_AUDIO);delay(500);if ((digitalRead(PIN_P2)==0)) SMOTOR=1;} //push switch 2 until a tone beep on reset for deactivate magic FX  ;-)
   
   start_race();    
 }
