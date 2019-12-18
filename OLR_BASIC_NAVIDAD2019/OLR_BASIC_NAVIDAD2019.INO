@@ -26,7 +26,7 @@
 */
 
 
-//version Basic for PCB Rome Edition / Napoli custom:  150 leds, music , sound fx off default (on with switch 2)
+//version Basic for PCB Rome Edition / Versin Navidad 2019:  efecto nieve + villancico
 // 2 Player , without Boxes Track
                                                             
 #include <Adafruit_NeoPixel.h>
