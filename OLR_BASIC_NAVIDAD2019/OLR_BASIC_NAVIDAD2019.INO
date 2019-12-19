@@ -54,7 +54,7 @@ int cont_print=0;
 #define COLOR1_tail   Color(i*3,0,0)
 #define COLOR2_tail   Color(0,i*3,0)
 
-long DO=523, 
+int DO=523, 
      DoS=554,
      RE=587,
      RES=622,
